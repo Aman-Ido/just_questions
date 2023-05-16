@@ -1,0 +1,162 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Model Questions</title>
+		<meta charset="UTF-8" />
+	</head>
+	<body style="font-family: times new roman; font-size: 18px;">
+	<!-- header table -->
+		<table>
+			<center>
+				<b>
+					SAMPLE QUESTIONS<br>
+				</b>
+			</center>
+			<b>Theme : <a href="#" id="theme_change">Light</a></b>
+		</table>
+		<hr>
+		<!-- group 'a' -->
+		<font color="red"><center>Group A</center></font>
+		<b>Multiple Choice questions <font color="red">[9x1=9]</font></b><br>
+		<b>Time : <font color="orange">20 minutes</font><br>
+		Tick the correct Answer</b>
+		
+		<!-- questions -->
+		<ol>
+			<li>The object of MS-Access that is used to generate a hard copy of records.</li>
+			<ol type="a">
+				<li>Query</li>
+				<li>Table</li>
+				<li>Form</li>
+				<li>Report</li>
+			</ol>
+			<li>A ... key uniquely identifies a record.</li>
+			<ol type="a">
+				<li>Primary</li>
+				<li>Foreign</li>
+				<li>Composite</li>
+				<li>None</li>
+			</ol>
+			<li>Which of the following is a remote login service?</li>
+			<ol type="a">
+				<li>Video conference</li>
+				<li>Telnet</li>
+				<li>FTP</li>
+				<li>All of the above</li>
+			</ol>
+			<li>... returns today's date and time.</li>
+			<ol type="a">
+				<li>date() method</li>
+				<li>data () method</li>
+				<li>image () method</li>
+				<li>None of the above</li>
+			</ol>
+			<li>... extracts a section of a string and returns a new string.</li>
+			<ol type="a">
+				<li>() set method</li>
+				<li>slice() method</li>
+				<li>split() method</li>
+				<li>None of the above</li>
+			</ol>
+			<li>Choose a correct statement about C Language Functions.</li>
+			<ol type="a">
+				<li>A function name cannot be same as a predefined keyword.</li>
+				<li>A function name can start with an Underscore (_ ) or A to Z or a to z.</li>
+				<li>Default return type of any function is an integer.</li>
+				<li>All the above.</li>
+			</ol>
+			<li>In ... paradigm, programs are written as a collection of classes and objects.</li>
+			<ol type="a">
+				<li>Procedural paradigm</li>
+				<li>Structural Paradigm</li>
+				<li>object-oriented paradigm</li>
+				<li>None of the above</li>
+			</ol>
+			<li>DFD stands for ....</li>
+			<ol type="a">
+				<li>Data Flow Diagram</li>
+				<li>Data file Diagram</li>
+				<li>Data Fixed Diagram</li>
+				<li>None of the above</li>
+			</ol>
+			<li>... is a process of buying and selling or exchaning products, services, and information using electronic media.</li>
+			<ol type="a">
+				<li>E-commerce</li>
+				<li>Payment</li>
+				<li>shopping</li>
+				<li>Traditional commerce</li>
+			</ol>
+			<!-- answers -->
+			<table border=1>
+				<tr>
+					<th colspan=10>Answers</th>
+				</tr>
+				<tr>
+					<td>1.</td>
+					<td>2.</td>
+					<td>3.</td>
+					<td>4.</td>
+					<td>5.</td>
+					<td>6.</td>
+					<td>7.</td>
+					<td>8.</td>
+					<td>9.</td>
+					<td>10.</td>
+				</tr>
+				<tr>
+					<td>d</td>
+					<td>a</td>
+					<td>b</td>
+					<td>a</td>
+					<td>b</td>
+					<td>d</td>
+					<td>c</td>
+					<td>a</td>
+					<td>a</td>
+					<td></td>
+				</tr>
+			</table>
+			<font color="red"><b><center>Group B</center></b></font>
+			<b>Short Answer Questions <font color="red">[5x5=25]</font></b>
+			<li>What is an E-R diagram? Explain the advantages of the E-R diagram in system design.
+				<br>OR<br>
+				What is data security? How it can be implemented?
+			</li>
+			<li>Explain the different operators used in PHP.
+				<br>OR<br>
+				Write a JavaScript to print the largest & smallest numbers among 10 elements of an array.
+			</li>
+			<li>What is OOP? List the application of OOP.</li>
+			<li>What is system testing? Explain different types of testing techniques during the system development.</li>
+			<li>Classify e-Commerce according to the nature of the transaction.</li>
+			<font color="red"><b><center>Group C</center></b></font>
+			<b>Long Answer Questions <font color="red">[2x8=16]</font></b>
+			<li>What is networking? Distinguish between star topology and ring topology of networking principles with the help of a clean diagram.</li>
+			<li>What is a data file? Write down the syntax to create a new file. 
+				<br>OR</br>
+				Write a C program to open a new file and read roll-no, name, address and phone number of students until the user says "no", after reading the data, write it to the file then display the content of the file.
+			</li>
+		</ol>
+		
+		
+		<script>
+			const theme_change = document.getElementById("theme_change");
+			let is_dark = "false";
+			theme_change.addEventListener("click", function (e) {
+				e.preventDefault();
+				if (is_dark == "false") {
+					is_dark = "true";
+					document.body.style.backgroundColor = "black";
+					document.body.style.color = "white";
+					theme_change.innerText = "Dark";
+				}
+				else if (is_dark == "true") {
+					is_dark = "false";
+					document.body.style.backgroundColor = "white";
+					document.body.style.color = "black";
+					theme_change.innerText = "Light";
+				}
+			})
+		</script>
+	</body>
+</html>
